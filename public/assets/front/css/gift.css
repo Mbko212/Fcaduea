@@ -1,0 +1,103 @@
+figure {
+    padding: 0;
+}
+/* Gift Css Start Here */
+.quote h2 {
+    font-family: 'blacksword', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 7%;
+}
+.quote h2 span.comma {
+    font-size: 80px;
+}
+.quote .writer {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 30px 0 0;
+}
+.quote .writer .line {
+    background: #000;
+    height: 1px;
+    width: 20%;
+    margin: 0px auto;
+    margin-bottom: -12px;
+}
+.quote .writer span {
+    background: #fff;
+    padding: 3px 10px;
+}
+.category .heading {
+    padding-bottom: 30px;
+}
+.category .heading h2 {
+    line-height: 35px;
+}
+.category .categoryBox .imgbox figure img {
+    width: 100%;
+}
+.category .categoryBox a.btnn {
+    color: #000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.category .categoryBox  .categoryBox {
+    position: relative;
+}
+.category .categoryBox .contenTDv {
+    position: absolute;
+    bottom: 0;
+    padding: 40px 30px;
+}
+.category .categoryBox a.btnn {
+    color: #000;
+    font-weight: 600;
+    text-decoration: underline !important;
+}
+/* Gift Css End Here */
+/* begin of price product section  */
+.pp-img img {
+    width: auto;
+    border: 1px solid #E7ADB3;
+    border-radius: 50%;
+}
+.pp-img h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.pp-img a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.pp-img {
+    text-align: center;
+}
+section.priceProducts {
+    background-color: #FEF2F1;
+    padding: 70px 20px;
+}
+section.priceProducts h2 {
+    line-height: 36px;
+}
+@media (max-width: 575px) {
+    .quote h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .quote h2 span.comma {
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .category .heading h2 {
+        line-height: 30px;
+        font-size: 21px;
+    }
+    .summer-candels h2 {
+        font-size: 25px;
+    }
+}
+/* end price picture section  */

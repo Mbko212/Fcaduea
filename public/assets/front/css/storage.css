@@ -1,0 +1,107 @@
+/* Products Css Start Here */
+.candels .img-box figure {
+    padding: 0;
+}
+.candels .img-box figure img {
+    width: 100%;
+}
+.storage-products .head h3 {
+    font-family: 'Montserrat';
+}
+.storage-products .head {
+    padding-bottom: 20px;
+}
+.storage-products #accordion .card {
+    border: 0;
+    margin-bottom: 10px;
+}
+.storage-products #accordion .card .card-body {
+    padding: 0;
+}
+.storage-products #accordion .card .card-header {
+    outline: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #cccccc7d;
+    padding: 10px 0;
+}
+.storage-products #accordion .card .card-header button.btnn.btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    outline: none;
+    text-decoration: none;
+}
+.storage-products #accordion .card .card-header button.btnn.btn-link h6 {
+    margin-bottom: 0;
+    color: #000;
+    font-family: 'Poppins';
+}
+.storage-products #accordion .card .card-header button.btnn.btn-link p {
+    margin-bottom: 0;
+}
+.storage-products #accordion .card .form-check label.form-check-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.storage-products #accordion .card .form-check {
+    border-bottom: 1px solid #EBEBEB;
+    padding: 12px 0px 12px 20px;
+}
+.storage-products #accordion .card .form-check label.form-check-label .name span {
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: #898989;
+    font-weight: 600;
+}
+.storage-products #accordion .card .form-check label.form-check-label .products-count span {
+    font-family: 'Montserrat';
+    color: #B6B6B6;
+    font-size: 14px;
+}
+.storage-products .vertical-line {
+    background: #0000002e;
+    width: 1px;
+    height: 100%;
+    margin: 0px auto;
+}
+.storage-products .TopBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #70707061;
+    padding-bottom: 15px;
+}
+.storage-products .TopBar .heading h5 {
+    line-height: 0;
+}
+.storage-products .TopBar .filter-btn button {
+    background: #000000;
+    border: 0;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 5px 40px;
+    border-radius: 50px;
+}
+.storage-products .TopBar .filter-btn button i {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.storage-products .card {
+    margin-bottom: 30px;
+}
+/* Products Css End Here */
+
+/* Media Query Start Here */
+@media (max-width:450px) {
+    .storage-products .TopBar {
+        display: block;
+        text-align: center;
+    }
+}
+/* Media Query End Here */
